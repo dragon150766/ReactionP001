@@ -9,12 +9,11 @@ import AlertComponent from './components/AlertComponent'
 import ImageWithTextInput from './components/ImageWithTextInput'
 import ButtonExample from './components/ButtonExample'
 import Touchable_Example from './components/Touchable_Example'
-import TouchablePractice from './components/TouchablePractice'
 
 
 const App = () => {
   return (
-    <View >
+    <View style= {styles.container}>
       {/* <LotsOfGreetings/> */}
       {/* <Count/> */}
       {/* <InputText/> */}
@@ -22,7 +21,7 @@ const App = () => {
       {/* <AlertComponent/> */}
       {/* <ImageWithTextInput/> */}
       {/* <ButtonExample/> */}
-      <TouchablePractice/>
+      <Touchable_Example/>
     </View>
   )
 }
@@ -34,7 +33,7 @@ const styles = StyleSheet.create({
   flex:1,
   alignItems: 'center',
   justifyContent: 'center',
-  
+  backgroundColor: '#4DDA'
   }
 
  
