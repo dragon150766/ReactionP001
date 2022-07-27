@@ -6,8 +6,8 @@ const ModalPractice = () => {
     const [showModal,setShowModal] = useState(false);
 
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor : 'black'}}>
-        <View style={styles.centeredView}>
+    <SafeAreaView style={{flex:1 , backgroundColor: '#333', alignItems: 'center' , justifyContent: 'center'}}>
+        <View  >
             <Modal
              animationType='fade'
              transparent= {false}
@@ -27,7 +27,7 @@ const ModalPractice = () => {
                 </View>
             </Modal>
 
-            <View >
+            <View style={{ flex: 1, alignItems : 'center', justifyContent: 'center' }}>
                 <Text style={styles.textStyle}>Ligth is Close</Text>
                 <Button
                 style={styles.button}
@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: 22,
+        marginTop:22,
+        backgroundColor : 'black',
         },
         modalView: {
         margin: 20,
@@ -85,4 +86,5 @@ const styles = StyleSheet.create({
         marginBottom: 15,
         textAlign: 'center',
         },
+        
 })

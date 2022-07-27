@@ -16,7 +16,7 @@ import ModalPractice from './components/ModalPractice'
 
 const App = () => {
   return (
-    <View >
+    <View style={{flex: 1}} >
       {/* <LotsOfGreetings/> */}
       {/* <Count/> */}
       {/* <InputText/> */}
@@ -34,8 +34,6 @@ export default App
 
 const styles = StyleSheet.create({
 
-
- 
 })
 
 
