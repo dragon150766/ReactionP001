@@ -10,9 +10,7 @@ import ImageWithTextInput from './components/ImageWithTextInput'
 import ButtonExample from './components/ButtonExample'
 import Touchable_Example from './components/Touchable_Example'
 import TouchablePractice from './components/TouchablePractice'
-import DynamicStyle from './components/DynamicStyle'
-import ModelExample from './components/ModelExample'
-import ModalPractice from './components/ModalPractice'
+
 
 const App = () => {
   return (
@@ -24,8 +22,7 @@ const App = () => {
       {/* <AlertComponent/> */}
       {/* <ImageWithTextInput/> */}
       {/* <ButtonExample/> */}
-      {/* <DynamicStyle/> */}
-      <ModalPractice/>
+      <TouchablePractice/>
     </View>
   )
 }
@@ -33,7 +30,12 @@ const App = () => {
 export default App
 
 const styles = StyleSheet.create({
-
+  container:{
+  flex:1,
+  alignItems: 'center',
+  justifyContent: 'center',
+  
+  }
 
  
 })
